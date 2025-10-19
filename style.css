@@ -81,19 +81,78 @@ header .menu_mobile {
     display: none;
 }
 
+
+
 /* AGORA É A PARTE DO MAIN*/
 main {
     background-color: var(--Bege-claro);
 }
 
 main .texto-muda {
-    padding: 10px;
     text-align: center;
+    padding: 10px;
     background-color: var(--Marrom-escuro);
 }
 
 main .texto-muda #txt {
-    color: var(--Dourado-suave);
+    color: white;
     font-family: var(--fonte-palavras-que-mudam);
     font-size: 2rem;
+}
+
+/* Sobre Nos */
+main .sobre_Nos {
+    padding: 15px 4%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 10%;
+}
+
+main .sobre_Nos > article {
+    padding: 10px;
+}
+
+main .sobre_Nos > article > h1 {
+    text-align: center;
+    padding: 15px;
+    font-family: var(--fonte-titulos);
+    color: var(--verde);
+    animation:  aumentarTamanho 4s ease-in-out alternate infinite;
+}
+
+main .sobre_Nos > article > p {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: var(--fonte-textos);
+}
+
+/*CARDAPIO*/
+main .cardapio {
+    background-color: var(--Dourado-suave);
+}
+
+main .cardapio > article {
+    
+    text-align: center;
+}
+
+main .cardapio  article .comidas img {
+   width: 150px;
+   
+}
+
+
+
+
+
+
+@keyframes aumentarTamanho {
+    0% {
+        scale: 100%;
+    }
+
+    100% {
+        scale: 110%;
+    }
+    
+    
 }

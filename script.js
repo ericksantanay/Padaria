@@ -21,7 +21,7 @@
         "Venha experimentar a alegria em forma de pão"
     ]
     // InnerText e indice
-    mensa.innerText = (frases[indice])
+    mensa.innerText = (frases[indice].toUpperCase())
     indice++
 
     // If
