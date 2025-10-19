@@ -1,3 +1,4 @@
+    // Frases no inicio do site   
     indice = 0
     setInterval(function(){
     let mensa = document.getElementById('txt')
@@ -29,3 +30,20 @@
     }
     
 }, 1000)
+
+    // CARROSSEL
+    const imgs = document.getElementById('img')
+    const img = document.querySelectorAll('#img img')
+
+    let idx = 0
+    function carrossel() {
+        idx++
+
+        if (idx > img.length - 1) {
+            idx = 0
+        }
+
+        imgs.style.transform = `traslateX(${-idx * 500}px)`
+
+        setInterval(carrossel, 1000)
+    }
