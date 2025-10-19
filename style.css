@@ -36,7 +36,8 @@
 /*HEADER, PARTE DOS MENUS E LOGOS*/
 header {
     width: 100%;
-    padding: 10px 6%;
+    padding: 15px 6%;
+    background-color: var(--Marrom-escuro);
 }
 
 header nav {
@@ -55,4 +56,44 @@ header nav ul {
     display: flex;
     padding: 10px;
     list-style-type: none;
+}
+
+header nav ul > a {
+    color: var(--Bege-claro);
+    font-family: var(--fonte-menu);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+header nav .icones > span {
+    cursor: pointer;
+    color: white;
+}
+
+/*Icone de hamburguer*/
+header nav .icones #menuHamburguer {
+    display: none;
+    margin: 30px;
+}
+
+header .menu_mobile {
+    display: none;
+}
+
+/* AGORA É A PARTE DO MAIN*/
+main {
+    background-color: var(--Bege-claro);
+}
+
+main .texto-muda {
+    padding: 10px;
+    text-align: center;
+    background-color: var(--Marrom-escuro);
+}
+
+main .texto-muda #txt {
+    color: var(--Dourado-suave);
+    font-family: var(--fonte-palavras-que-mudam);
+    font-size: 2rem;
 }
