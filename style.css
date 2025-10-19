@@ -1,22 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+/*SELETOR GERAL*/
 * {
     box-sizing: border-box;
-
+    margin: 0;
+    padding: 0;
 }
 
-/*CARROSSEL*/
-.carrossel {
-    overflow: hidden;
-    height: 500px;
-    width: 500px;
+/*ROOT*/
+:root {
+    /*CORES*/
+    --Marrom-escuro: #5A3E2B;
+    --Bege-claro:#F5E1C8;
+    --Dourado-suave:#D4A373;
+    --Dourado-metálico: #C8A951;
+    --cinza: #5E5E5E;
+    --verde: #445925;
+
+    /*FONTES*/
+    --fonte-titulos: "Outfit", sans-serif;
+    --fonte-menu: "Poppins", sans-serif;
+    --fonte-palavras-que-mudam: "Oswald", sans-serif;
+    --fonte-textos: "Lexend Deca", sans-serif;
+    --fonte-preço: "Arimo", sans-serif;
+}   
+
+/*HEADER, PARTE DOS MENUS E LOGOS*/
+header {
+    width: 100%;
+    padding: 10px 6%;
 }
 
-.container {
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-img {
-    object-fit: cover;
-    height: 500px;
-    width: 500px;
+header nav > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+header nav ul {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
 }
