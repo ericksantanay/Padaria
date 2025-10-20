@@ -31,4 +31,23 @@
     
 }, 1900)
 
+
+// PARTE DE ADICIONAR, REMOVER E COMPRAR
+    let sub = document.getElementById('subtotal')
+
+    contador = 0
+    function aumentar() {
+    contador++
+    sub.innerText = (`${contador}`)
+    }
+
+    
+    // PARTE DE DIMINUIR 
+    function diminuir() {
+    contador--
+    sub.innerText = (`${contador}`)
+    
+
+}
+
     
