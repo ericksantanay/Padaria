@@ -61,3 +61,8 @@ function Compra() {
   
 
 // MENU HAMBURGUER 
+    if (menuHamburguer.style.display == 'block') {
+        menuHamburguer.style.display = 'none'
+    }else {
+        menuHamburguer.style.display = 'block'
+    }
