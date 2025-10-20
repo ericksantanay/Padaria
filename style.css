@@ -165,7 +165,7 @@ main .cardapio > article h1 {
 /* IMAGEM */
 main .cardapio  article .container-cardapio .comidas img {
    width: 220px;
-   border-radius: 5px;
+   border-radius: 10px;
 }
 
 /* PREÇOS */
