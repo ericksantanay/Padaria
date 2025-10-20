@@ -211,7 +211,7 @@ main #contato {
     margin: auto;
     margin-top: 15%;
     text-align: center;
-    background-color: var(--cinza);
+    background-color: var(--Dourado-suave);
     width: 500px;
     height: 300px;
     border-radius: 5px;
@@ -224,6 +224,7 @@ main #contato > article h1 {
     color: var(--verde);
     padding: 20px;
     background-color: var(--Bege-claro);
+    margin-bottom: 10px;
 }
 
 /*DIV AONDE ESTA OS INPUTS */
@@ -236,8 +237,12 @@ main #contato > article > div {
 }
 
 main #contato > article > div > input {
+    outline-color: var(--Dourado-metálico);
     width: 300px;
     padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 
