@@ -247,16 +247,21 @@ main #contato > article > form > input,textarea {
     margin: 10px;
 }
 
+/*PARTE DO BOTÃO */
 main #contato > article > form button {
     padding: 15px;
     border: none;
     border-radius: 5px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
+    transition: .2s ease-in-out;
+    margin-top: 20px;
 }
 
+/*PARTE DO BOTÃO COM HOVER */
 main #contato > article > form button:hover {
-    background-color: #e7e7e7;
+    background-color: #dbdbdb;
+    padding: 19px;
 }
 
 
