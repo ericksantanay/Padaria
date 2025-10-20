@@ -46,8 +46,16 @@
     function diminuir() {
     contador--
     sub.innerText = (`${contador}`)
-    
+}
 
+// ESSE É A PARTE DA COMPRA 
+function Compra() {
+    if (contador >= 1) {
+        alert('TEM CERTEZA DA COMPRA ?')
+        prompt('ESCREVA SUA SENHA DO CARTÃO, SÓ PARA CONFIRMAR!.')
+    }else {
+         alert('ADICIONE ALGO AO CARRINHO.')
+    }
 }
 
     
