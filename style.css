@@ -40,24 +40,28 @@ header {
     background-color: var(--Marrom-escuro);
 }
 
+/* NAV */
 header nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
+/* IMAGEM (LOGO) */
 header nav > img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 
+/* LISTA NÃO ORDENADA */
 header nav ul {
     display: flex;
     padding: 10px;
     list-style-type: none;
 }
 
+/* LINKS  */
 header nav ul > a {
     color: var(--Bege-claro);
     font-family: var(--fonte-menu);
@@ -66,6 +70,7 @@ header nav ul > a {
     margin: 5px;
 }
 
+/* SPAN QUE ESTA OS ICONES */
 header nav .icones > span {
     cursor: pointer;
     color: white;
@@ -77,6 +82,7 @@ header nav .icones #menuHamburguer {
     margin: 30px;
 }
 
+/* ESSE É O MENU MOBILE (HOME, SOBRE NÓS, CARDÁPIO E CONTATO) */
 header .menu_mobile {
     display: none;
 }
@@ -88,12 +94,14 @@ main {
     background-color: var(--Bege-claro);
 }
 
+/* DIV DO TEXTO QUE MUDA AS FRASES  */
 main .texto-muda {
     text-align: center;
     padding: 10px;
     background-color: var(--Marrom-escuro);
 }
 
+/* TEXTO QUE MUDA AS FRASES */
 main .texto-muda #txt {
     color: white;
     font-family: var(--fonte-palavras-que-mudam);
@@ -107,10 +115,12 @@ main .sobre_Nos {
     margin-bottom: 10%;
 }
 
+/* SOBRE NÓS ARTICLE */
 main .sobre_Nos > article {
     padding: 10px;
 }
 
+/* H1 DO SOBRE NÓS */
 main .sobre_Nos > article > h1 {
     text-align: center;
     padding: 15px;
@@ -119,27 +129,80 @@ main .sobre_Nos > article > h1 {
     animation:  aumentarTamanho 4s ease-in-out alternate infinite;
 }
 
+/* PARAGRAFO DO SOBRE NÓS */
 main .sobre_Nos > article > p {
     font-size: 20px;
     line-height: 40px;
     font-family: var(--fonte-textos);
 }
 
-/*CARDAPIO*/
+/*CARDÁPIO*/
 main .cardapio {
     background-color: var(--Dourado-suave);
 }
 
+/* CONTAINER QUE ESTA O ARTICLE E AS DIVS COM AS IMAGUENS E PREÇOS*/
+main .cardapio > article .container-cardapio {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 80px;
+}
+
+/* ARTICLE*/
 main .cardapio > article {
-    
     text-align: center;
 }
 
-main .cardapio  article .comidas img {
-   width: 150px;
-   
+/* H1 */
+main .cardapio > article h1 {
+    font-family: var(--fonte-titulos);
+    font-size: 2rem;
+    color: var(--verde);
+    padding: 50px ;
 }
 
+/* IMAGEM */
+main .cardapio  article .container-cardapio .comidas img {
+   width: 220px;
+   border-radius: 5px;
+}
+
+/* PREÇOS */
+main .cardapio > article .container-cardapio .comidas > p {
+    font-family: var(--fonte-preço);
+    padding: 10px;
+    color: white;
+    background-color: var(--Marrom-escuro);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 10px;
+}
+
+/* ESSA É A PARTE DOS DOIS BOTÕES + E - E  O BOTÃO DE COMPRAR*/
+main .cardapio > article .container-cardapio .comidas  .inplementos {
+    display: flex;
+    padding: 25px;
+    color: white;
+    background-color: var(--Marrom-escuro);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+main .cardapio > article .container-cardapio .comidas  .inplementos > p {
+    padding: 5px;
+}
+
+main .cardapio > article .container-cardapio .comidas  .inplementos > input {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: var(--Dourado-metálico);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 500;
+}
 
 
 
