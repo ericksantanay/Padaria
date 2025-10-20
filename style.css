@@ -206,6 +206,34 @@ main .cardapio > article .container-cardapio .comidas  .inplementos > input {
 
 
 
+/*PARTE DO CONTATO COM H1, INPUTS*/ 
+main #contato {
+    margin-top: 15%;
+    text-align: center;
+}
+
+/*PARTE DO H1*/
+main #contato > article h1 {
+    font-size: 2rem;
+    font-family: var(--fonte-titulos);
+    color: var(--verde);
+    padding: 20px;
+}
+
+/*DIV AONDE ESTA OS INPUTS */
+main #contato > article > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza);
+    padding: 10px;
+    
+}
+
+main #contato > article > div > input {
+    width: 300px;
+    padding: 10px;
+}
 
 
 @keyframes aumentarTamanho {
