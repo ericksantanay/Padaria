@@ -36,8 +36,10 @@
 /*HEADER, PARTE DOS MENUS E LOGOS*/
 header {
     width: 100%;
-    padding: 15px 6%;
+    padding: 10px 6%;
     background-color: var(--Marrom-escuro);
+    position: fixed;
+    z-index: 99;
 }
 
 /* NAV */
@@ -49,8 +51,8 @@ header nav {
 
 /* IMAGEM (LOGO) */
 header nav > img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
@@ -97,7 +99,7 @@ main {
 /* DIV DO TEXTO QUE MUDA AS FRASES  */
 main .texto-muda {
     text-align: center;
-    padding: 10px;
+    padding-top: 90px;
     background-color: var(--Marrom-escuro);
 }
 
@@ -278,7 +280,6 @@ footer > p {
     font-size: 1.2rem;
     padding: 20px;
 }
-
 
 @keyframes aumentarTamanho {
     0% {
