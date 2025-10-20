@@ -208,13 +208,13 @@ main .cardapio > article .container-cardapio .comidas  .inplementos > input {
 
 /*PARTE DO CONTATO COM H1, INPUTS*/ 
 main #contato {
-    margin: auto;
-    margin-top: 15%;
     text-align: center;
     background-color: var(--Dourado-suave);
     width: 500px;
-    height: 300px;
+    height: 400px;
     border-radius: 5px;
+    margin: auto;
+    margin-top: 15%;
 }
 
 /*PARTE DO H1*/
@@ -227,8 +227,8 @@ main #contato > article h1 {
     margin-bottom: 10px;
 }
 
-/*DIV AONDE ESTA OS INPUTS */
-main #contato > article > div {
+/*FORM AONDE ESTA OS INPUTS */
+main #contato > article > form {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -236,13 +236,27 @@ main #contato > article > div {
     padding: 10px;
 }
 
-main #contato > article > div > input {
+
+/* PARTE DO INPUT E DO TEXTWARE*/
+main #contato > article > form > input,textarea {
     outline-color: var(--Dourado-metálico);
     width: 300px;
-    padding: 10px;
+    padding: 15px;
     border: none;
     border-radius: 5px;
     margin: 10px;
+}
+
+main #contato > article > form button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+main #contato > article > form button:hover {
+    background-color: #e7e7e7;
 }
 
 

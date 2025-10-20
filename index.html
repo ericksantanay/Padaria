@@ -294,12 +294,12 @@
             <article>
                 <h1>CONTATO</h1>
 
-                <div>
-                    <input type="text" name="nome" id="inome" placeholder="Nome" required>
-                    <input type="text" name="email" id="iemail" placeholder="E-mail" required>
-                    <textarea name="digite" id="idigite" placeholder="Mensaguem"></textarea>
-                    <button type="button" onclick="enviarMensaguem()">ENVIAR</button>
-                </div>  
+                    <form action="form.php" method="get">
+                        <input type="text" name="nome" id="inome" required placeholder="Nome" >
+                        <input type="email" name="email" id="iemail" required placeholder="E-mail" >
+                        <textarea name="digite" id="idigite" placeholder="Mensaguem" required></textarea>
+                        <button type="submit" onclick="enviarMensaguem()">ENVIAR</button>
+                        </form>
             </article>
         </section> <!--PARTE DO CONTATO-->
     </main><!--Main-->
