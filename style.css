@@ -107,7 +107,7 @@ main {
 /* DIV DO TEXTO QUE MUDA AS FRASES  */
 main .texto-muda {
     text-align: center;
-    padding-top: 90px;
+    padding-top: 120px;
     background-color: var(--Marrom-escuro);
 }
 
@@ -329,7 +329,7 @@ footer > p {
         }
 
         header .menu_mobile {
-            
+            display: none;
         }
 
         header .menu_mobile ul > a {
