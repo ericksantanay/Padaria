@@ -208,8 +208,13 @@ main .cardapio > article .container-cardapio .comidas  .inplementos > input {
 
 /*PARTE DO CONTATO COM H1, INPUTS*/ 
 main #contato {
+    margin: auto;
     margin-top: 15%;
     text-align: center;
+    background-color: var(--cinza);
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
 }
 
 /*PARTE DO H1*/
@@ -218,16 +223,16 @@ main #contato > article h1 {
     font-family: var(--fonte-titulos);
     color: var(--verde);
     padding: 20px;
+    background-color: var(--Bege-claro);
 }
 
 /*DIV AONDE ESTA OS INPUTS */
 main #contato > article > div {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    background-color: var(--cinza);
     padding: 10px;
-    
 }
 
 main #contato > article > div > input {
