@@ -70,7 +70,14 @@ header nav ul > a {
     text-decoration: none;
     padding: 10px;
     margin: 5px;
+    transition: .2s ease-in-out;
 }
+
+/*LINKS HOVER*/
+header nav ul > a:hover {
+    color: var(--Dourado-suave);
+}
+
 
 /* SPAN QUE ESTA OS ICONES */
 header nav .icones > span {
@@ -87,6 +94,7 @@ header nav .icones #menuHamburguer {
 /* ESSE É O MENU MOBILE (HOME, SOBRE NÓS, CARDÁPIO E CONTATO) */
 header .menu_mobile {
     display: none;
+
 }
 
 
@@ -143,17 +151,19 @@ main .cardapio {
     background-color: var(--Dourado-suave);
 }
 
+/* ARTICLE*/
+main .cardapio > article {
+    text-align: center;
+}
+
 /* CONTAINER QUE ESTA O ARTICLE E AS DIVS COM AS IMAGUENS E PREÇOS*/
 main .cardapio > article .container-cardapio {
     padding: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 80px 80px;
-}
-
-/* ARTICLE*/
-main .cardapio > article {
-    text-align: center;
 }
 
 /* H1 */
@@ -168,6 +178,12 @@ main .cardapio > article h1 {
 main .cardapio  article .container-cardapio .comidas img {
    width: 220px;
    border-radius: 10px;
+   transition: .3s ease-in-out;
+}
+
+main .cardapio  article .container-cardapio .comidas img:hover {
+    padding: 10px;
+    cursor: pointer;
 }
 
 /* PREÇOS */
@@ -191,10 +207,7 @@ main .cardapio > article .container-cardapio .comidas  .inplementos {
     border-bottom-right-radius: 5px;
 }
 
-main .cardapio > article .container-cardapio .comidas  .inplementos > p {
-    padding: 5px;
-}
-
+/* ESSA É A PARTE DOS INPUTS */
 main .cardapio > article .container-cardapio .comidas  .inplementos > input {
     padding: 10px;
     cursor: pointer;
@@ -206,13 +219,28 @@ main .cardapio > article .container-cardapio .comidas  .inplementos > input {
     font-weight: 500;
 }
 
+/* ESSA É A PARTE DOS INPUTS COM HOVER  */
+main .cardapio > article .container-cardapio .comidas  .inplementos > input:hover {
+    background-color: #edbb34;
+}
+
+/* ESSA É A PARTE DOS INPUTS COMPRAR*/
+main .cardapio > article .container-cardapio .comidas  .inplementos .btn {
+    transition: .2s ease-in-out;
+}
+
+/* ESSA É A PARTE DOS INPUTS COMPRAR COM HOVER */
+main .cardapio > article .container-cardapio .comidas  .inplementos .btn:hover {
+    padding: 12px;
+}
+
 
 
 /*PARTE DO CONTATO COM H1, INPUTS*/ 
 main #contato {
     text-align: center;
     background-color: var(--Dourado-suave);
-    width: 500px;
+    max-width : 500px;
     height: 400px;
     border-radius: 5px;
     margin: auto;
@@ -291,4 +319,30 @@ footer > p {
     }
     
     
+}
+
+
+@media screen and (max-width: 600px){
+        header nav ul {
+            display: none;
+            
+        }
+
+        header .menu_mobile {
+            display: block;
+        }
+
+        header .menu_mobile ul > a {
+        color: var(--Bege-claro);
+        font-family: var(--fonte-menu);
+        text-decoration: none;
+        padding: 10px;
+        margin: 5px;
+        }
+
+
+    /*PARTE DO CONTATO*/
+    main #contato {
+        max-width: 350px;
+    }
 }
