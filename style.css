@@ -39,7 +39,7 @@ header {
     padding: 10px 6%;
     background-color: var(--Marrom-escuro);
     position: fixed;
-    z-index: 99;
+    z-index: 98;
 }
 
 /* NAV */
@@ -51,8 +51,8 @@ header nav {
 
 /* IMAGEM (LOGO) */
 header nav > img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 
