@@ -328,8 +328,12 @@ footer > p {
             
         }
 
+        header nav .icones #menuHamburguer {
+            display: block;
+        }
+
         header .menu_mobile {
-            display: none;
+            display: block;
         }
 
         header .menu_mobile ul > a {
