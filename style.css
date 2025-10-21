@@ -123,6 +123,8 @@ main .sobre_Nos {
     padding: 15px 4%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-bottom: 10%;
+    transition: .3s ease-in-out;
+    
 }
 
 /* SOBRE NÓS ARTICLE */
@@ -309,6 +311,7 @@ footer > p {
     padding: 20px;
 }
 
+/* Keyframes*/
 @keyframes aumentarTamanho {
     0% {
         scale: 100%;
@@ -321,7 +324,7 @@ footer > p {
     
 }
 
-
+/*MEDIA QUERY*/
 @media screen and (max-width: 792px){
         header nav ul {
             display: none;
