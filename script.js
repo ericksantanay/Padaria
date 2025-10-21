@@ -61,10 +61,10 @@ function Compra() {
   
 
 // MENU HAMBURGUER 
-    function ClickMenu() {
-        if (menu_mobile.style.display == 'block') {
-            menu_mobile.style.display = 'none'
-        }else {
-            menu_mobile.style.display = 'block'
+      function ClickMenu(){
+            if (menu_mobile.style.display == 'block'){
+                menu_mobile.style.display = 'none'
+            }else{
+                menu_mobile.style.display = 'block'
+            }
         }
-    }

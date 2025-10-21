@@ -334,7 +334,8 @@ footer > p {
 
 
 
-        header .menu_mobile ul > a {
+        header #menu_mobile ul > a {
+        list-style: none;
         color: var(--Bege-claro);
         font-family: var(--fonte-menu);
         text-decoration: none;
