@@ -77,7 +77,12 @@ function Compra() {
         function enviarMensaguem() {
             let ipnome = document.getElementById('inome').value
             let ipemail = document.getElementById('inome').value
-            if (ipnome,ipemail >= length) {
+            let textware = document.getElementById('idigite').value
+
+
+            if (ipnome, ipemail, textware > length) {
                 alert('MENSAGUEM ENVIADA COM SUCESSO!!')
             }
+
+            
 }
