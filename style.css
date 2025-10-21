@@ -330,11 +330,13 @@ footer > p {
 
 /*MEDIA QUERY*/
 @media screen and (max-width: 792px){
+        /*PARTE DAS LISTA NÃO ORDENADAS DO MOBILE MENU */
         header nav ul {
             display: none;
             
         }
 
+        /*MENU HAMBURGUER*/
         header nav .icones #menuHamburguer {
             display: block;
         }
