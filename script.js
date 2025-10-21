@@ -75,5 +75,9 @@ function Compra() {
 // ESSA É  A PARTE DO CONTATO BOTÃO DE ENIAR
 
         function enviarMensaguem() {
-            alert('ENVIADO COM SUCESSO!!')
-        }
+            let ipnome = document.getElementById('inome').value
+            let ipemail = document.getElementById('inome').value
+            if (ipnome,ipemail >= length) {
+                alert('MENSAGUEM ENVIADA COM SUCESSO!!')
+            }
+}
