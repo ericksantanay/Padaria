@@ -94,10 +94,16 @@ header nav .icones #menuHamburguer {
 /* ESSE É O MENU MOBILE (HOME, SOBRE NÓS, CARDÁPIO E CONTATO) */
 header #menu_mobile {
     display: none;
-
+    justify-content: right;
 }
 
-
+header #menu_mobile ul > a {
+        list-style: none;
+        color: var(--Bege-claro);
+        font-family: var(--fonte-menu);
+        text-decoration: none;
+        margin: 5px;
+        }
 
 /* AGORA É A PARTE DO MAIN*/
 main {
@@ -123,7 +129,6 @@ main .sobre_Nos {
     padding: 15px 4%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-bottom: 10%;
-    
 }
 
 /* SOBRE NÓS ARTICLE */
@@ -332,17 +337,6 @@ footer > p {
 
         header nav .icones #menuHamburguer {
             display: block;
-        }
-
-
-
-        header #menu_mobile ul > a {
-        list-style: none;
-        color: var(--Bege-claro);
-        font-family: var(--fonte-menu);
-        text-decoration: none;
-        padding: 10px;
-        margin: 5px;
         }
 
 
