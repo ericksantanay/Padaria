@@ -48,6 +48,8 @@
     sub.innerText = (`${contador}`)
 }
 
+
+
 // ESSE É A PARTE DA COMPRA 
 function Compra() {
     if (contador >= 1) {
@@ -67,4 +69,11 @@ function Compra() {
             }else{
                 menu_mobile.style.display = 'block'
             }
+        }
+
+
+// ESSA É  A PARTE DO CONTATO BOTÃO DE ENIAR
+
+        function enviarMensaguem() {
+            alert('ENVIADO COM SUCESSO!!')
         }
